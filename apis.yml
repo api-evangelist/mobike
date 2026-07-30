@@ -1,7 +1,24 @@
 aid: mobike
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/mobike.png
 name: mobike
-description: mobike is a company surfaced as a portfolio company of qiming and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Mobike (Chinese 摩拜单车 / 摩拜科技, "Mobike Technology") was a Beijing-based
+  dockless bicycle-sharing company founded in 2015. Riders located, unlocked, and paid
+  for GPS smart-lock bikes through a mobile app and QR codes. Mobike was acquired by
+  Meituan in 2018 and its standalone brand was subsequently folded into Meituan Bike;
+  the public site (www.mobike.com) is now a bare ICP-filing landing page with no
+  developer API, SDK, documentation, or portal surface. It is tracked in the API
+  Evangelist network as a portfolio company of Qiming Venture Partners.
 url: https://raw.githubusercontent.com/api-evangelist/mobike/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +28,14 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Transportation
+- Mobility
+- Bike Sharing
+- Micromobility
+- China
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,4 +44,9 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://mobike.com
+  url: https://www.mobike.com
+x-enrichment:
+  date: '2026-07-20'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
