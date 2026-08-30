@@ -54,6 +54,11 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: ParentCompany
+  url: https://apis.io/providers/meituan/
+  name: Meituan
+  x-relationship: acquired
+  x-evidence: "Mobike was acquired by Meituan in 2018 and its standalone brand was subsequently folded into Meituan Bike; the public site (www."
 - type: Website
   url: https://www.mobike.com
 x-enrichment:
